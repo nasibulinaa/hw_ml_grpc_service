@@ -55,7 +55,7 @@ docker run --rm -p 50051:50051 grpc-ml-service
 
 Отправка запросов:
 
-![](docs/Code_OtqZWy9wdf.png)
+![](docs/Code_dhTILEHcKN.png)
 
 ### Скриншоты вывода команд после запуска контейнера
 
