@@ -46,7 +46,7 @@ python3 server/server.py
 # Сборка
 ./utils/build_container.sh
 # Запуск
-docker run --rm -p 8080:8080 grpc-ml-service
+docker run --rm -p 50051:50051 grpc-ml-service
 # Отправка запросов для теста (другой терминал)
 ./utils/test_req.sh
 ```
