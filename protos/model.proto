@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package mlservice.v1;
+
+service PredictionService {
+  rpc Predict (PredictRequest) returns (PredictResponse);
+  rpc Health (Empty) returns (HealthResponse);
+}
+
+message PredictRequest {
+  float feature1 = 1;
+  float feature2 = 2;
+  float feature3 = 3;
+  float feature4 = 4;
+}
+
+message PredictResponse {
+  string prediction = 1;
+  string confidence = 2;
+  string modelVersion = 3;
+}
+
+message Empty {}
+
+message HealthResponse {
+  string status = 1;
+  string modelVersion = 2;
+}
