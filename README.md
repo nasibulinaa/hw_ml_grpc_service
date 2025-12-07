@@ -53,10 +53,12 @@ docker run --rm -p 50051:50051 grpc-ml-service
 
 ### Примеры вызовов /health и /predict
 
+Отправка запросов:
+
+![](docs/Code_OtqZWy9wdf.png)
+
 ### Скриншоты вывода команд после запуска контейнера
 
 Сборка и запуск контейнера:
-![](docs/Code_Nz3n4zQgmf.png)
 
-Отправка запросов:
-![](docs/Code_OtqZWy9wdf.png)
+![](docs/Code_Nz3n4zQgmf.png)
